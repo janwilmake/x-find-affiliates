@@ -1,0 +1,14 @@
+{
+  "name": "x-company-affiliates",
+  "version": "1.0.0",
+  "description": "Find your company colleagues on X (Twitter) using OAuth 2.0 and the X API",
+  "main": "worker.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250124.3",
+    "wrangler": "^3.84.1"
+  }
+}
